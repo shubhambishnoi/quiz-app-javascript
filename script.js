@@ -87,7 +87,7 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the better actor in history?',
+    question: 'Who is the best actor in history?',
     answers: [
       { text: 'Leonardo', correct: false },
       { text: 'Robert de Niro', correct: false },
