@@ -78,25 +78,25 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'How many total countries are there in the world?',
+    question: 'Do you think this app will get me a job at Google?',
     answers: [
-      { text: '195', correct: true },
-      { text: '194', correct: false },
-      { text: '204', correct: false },
-      { text: '205', correct: false }
+      { text: '100%', correct: true },
+      { text: '20%', correct: false },
+      { text: '10%', correct: false },
+      { text: '2%', correct: false }
     ]
   },
   {
-    question: 'Which is the best skill?',
+    question: 'Who is the better actor in history?',
     answers: [
-      { text: 'Accounting', correct: false },
-      { text: 'Engineering', correct: false },
-      { text: 'Acting', correct: false },
-      { text: 'Procrastinating', correct: true }
+      { text: 'Leonardo', correct: false },
+      { text: 'Robert de Niro', correct: false },
+      { text: 'Tom Hanks', correct: false },
+      { text: 'Baburao Ganpatrao Apte', correct: true }
     ]
   },
   {
-    question: 'Is Information Technology fun?',
+    question: 'Is php fun?',
     answers: [
       { text: 'Kinda', correct: false },
       { text: 'YES!!!', correct: false },
@@ -105,10 +105,10 @@ const questions = [
     ]
   },
   {
-    question: 'What is covid for students?',
+    question: 'Which is more important?',
     answers: [
-      { text: 'Difficulty', correct: false },
-      { text: 'Blessing', correct: true }
+      { text: 'writing efficient algorithm', correct: false },
+      { text: 'changing fonts', correct: true }
     ]
   }
 ]
