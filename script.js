@@ -78,16 +78,16 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Do you think this app will get me a job at Google?',
+    question: 'What is the capital of USA?',
     answers: [
-      { text: '100%', correct: true },
-      { text: '20%', correct: false },
-      { text: '10%', correct: false },
-      { text: '2%', correct: false }
+      { text: 'Washington DC', correct: true },
+      { text: 'Newyork', correct: false },
+      { text: 'Chicago', correct: false },
+      { text: 'California', correct: false }
     ]
   },
   {
-    question: 'Who is the best actor in history?',
+    question: 'Which among the following is a fictional character?',
     answers: [
       { text: 'Leonardo', correct: false },
       { text: 'Robert de Niro', correct: false },
@@ -96,19 +96,19 @@ const questions = [
     ]
   },
   {
-    question: 'Is php fun?',
+    question: 'How many seasons does Game of thrones have?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: false },
-      { text: 'Um no', correct: false },
-      { text: 'Next Question', correct: true }
+      { text: '7', correct: false },
+      { text: '6', correct: false },
+      { text: '9', correct: false },
+      { text: '8', correct: true }
     ]
   },
   {
-    question: 'Which is more important?',
+    question: 'What is 72/4?',
     answers: [
-      { text: 'writing efficient algorithm', correct: false },
-      { text: 'changing fonts', correct: true }
+      { text: '19', correct: false },
+      { text: '18', correct: true }
     ]
   }
 ]
